@@ -36,3 +36,7 @@ yarn-error.log*
 next-env.d.ts
 
 .env
+
+git rm .env.local --cached
+git rm .env.staging --cached
+git commit -m "Stopped tracking env.local, and env.staging"
